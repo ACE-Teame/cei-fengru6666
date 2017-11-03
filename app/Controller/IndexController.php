@@ -35,6 +35,12 @@ class IndexController extends Home_Controller
                 ajaxReturn(202, '请填写正确的手机号码');
             }
         }
+
+        // 根据 姓名+手机号判断申请是否存在
+        $count = parent::$model->count('contect', ['username' => $data['username'], 'phone' => $data['phone']]);
+        if (!empty($count)) {
+            ajaxReturn(202, '请勿重复领取！');
+        }
     }
 
     /**
