@@ -20,6 +20,7 @@
                     <div class="entry">
                         <label>省份:</label>
                         <select id="province" name="province_id" >
+                            <option value="">--请选择--</option>
                             <?php foreach ($province_list as $id => $province): ?>
                             <option value="<?php echo $province['id']?>"><?php echo $province['province_name'] ?></option>  
                             <?php endforeach ?>
