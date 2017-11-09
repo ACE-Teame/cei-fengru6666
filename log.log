@@ -98,3 +98,12 @@
 2017-11-09 09:27:08Controller:app\Controller\AdminController  action:orderList
 2017-11-09 09:39:36Controller:app\Controller\AdminController  action:orderList
 2017-11-09 09:39:47Controller:app\Controller\AdminController  action:orderList
+2017-11-09 11:46:06Controller:app\Controller\IndexController  action:index
+2017-11-09 11:46:19Controller:app\Controller\IndexController  action:get_city
+2017-11-09 11:47:36Controller:app\Controller\IndexController  action:index
+2017-11-09 11:47:41Controller:app\Controller\IndexController  action:get_city
+2017-11-09 11:47:42Controller:app\Controller\IndexController  action:submitContect
+2017-11-09 11:47:49Controller:app\Controller\IndexController  action:index
+2017-11-09 11:47:58Controller:app\Controller\IndexController  action:get_city
+2017-11-09 11:47:59Controller:app\Controller\IndexController  action:submitContect
+2017-11-09 11:49:22Controller:app\Controller\IndexController  action:index

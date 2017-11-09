@@ -39,7 +39,7 @@ class IndexController extends Home_Controller
         // 根据 姓名+手机号判断申请是否存在
         $count = parent::$model->count('contect', ['username' => $data['username'], 'phone' => $data['phone']]);
         if (!empty($count)) {
-            ajaxReturn(202, '请勿重复领取！');
+            ajaxReturn(202, '请勿重复提交！');
         }
     }
 
