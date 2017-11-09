@@ -44,7 +44,7 @@
 		<div class="img"><img src="<?php echo image('6.jpg') ?>" alt=""></div>
 		<div class="img"><img src="<?php echo image('7.jpg') ?>" alt=""></div>
 		<div class="img"><img src="<?php echo image('8.jpg') ?>" alt=""></div>
-		<div class="form">
+<!-- 		<div class="form">
 			<div class="content">					
 				<form id="form_contenct_2">
 					<div class="entry">
@@ -72,7 +72,7 @@
 				<a class="btn" href="javascript:;" onclick="submit_contect('form_contenct_2')" id="submit_contect">点击提交，预留优惠名额</a>
 				<a class="btn" href="tel:400-8849-800" >电话咨询</a>
 			</div>
-		</div>
+		</div> -->
 	</div>
 	<?php echo js('jquery.min.js') ?>
 	<script>
