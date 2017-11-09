@@ -25,7 +25,7 @@ class Charm
 		// 拼接控制器文件路径
 		$strCtrlFile = CONTROLLER . $strController . APPEXT;
 		$strClass    = replace(CONTROLLER . $strController, ['/', '\\'], '\\');
-		file_put_contents('log.log', date('Y-m-d H:i:s') . 'Controller:' . $strClass . '  action:' .  $strAction . PHP_EOL, FILE_APPEND);
+		// file_put_contents('log.log', date('Y-m-d H:i:s') . 'Controller:' . $strClass . '  action:' .  $strAction . PHP_EOL, FILE_APPEND);
 		if(is_file($strCtrlFile)) {
 			require_once $strCtrlFile;
 			$objClass = new $strClass();
